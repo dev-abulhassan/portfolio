@@ -4,19 +4,19 @@ import about from "../assets/adnan hassan.jpg";
 const AboutSection = () => {
   return (
     <>
-      <div className="container mx-auto mt-20 py-10">
-        <div className=" flex items-center justify-between">
+      <div className="mt-20 py-10">
+        <div className=" md:flex px-5 items-center justify-between">
           <div data-aos="fade-right" className="md:w-[50%] w-full">
-            {/* title */}
+
             <div className=" mb-12">
               <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
-                <div className="">
+                <div className="text-xl md:text-4xl">
                   <span className="text-[#C778DD]">#</span>about-me
                 </div>
                 <div className="line w-1/3 h-px bg-[#C778DD]"></div>
               </div>
             </div>
-            {/* disc */}
+          
             <p className="text-[#ABB2BF] ">
               Hello, i’m hassan!
               <br />
@@ -31,7 +31,7 @@ const AboutSection = () => {
               establish their presence online. I always strive to learn about
               the newest technologies and frameworks.
             </p>
-            {/* button */}
+          
             <div className="mt-7">
               <a
                 href="#"
@@ -42,7 +42,7 @@ const AboutSection = () => {
             </div>
           </div>
 
-          <div data-aos="fade-left" className=" mx-auto">
+          <div data-aos="fade-left" className=" mx-auto py-5 md:py-0">
             <img
               className="mx-auto md:h-[400px] sm:h-[300px] rounded"
               src={about}
