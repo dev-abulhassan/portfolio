@@ -4,6 +4,7 @@ import EmailSupport from "../components/Contact/EmailSupport";
 import SocialMedia from "../components/Contact/SocialMedia";
 import Container from "../Shared/Container";
 import { Helmet } from "react-helmet-async";
+import Animated from "../components/AnimatedCursor/Animated";
 
 const ContactMe = () => {
   return (
@@ -12,6 +13,7 @@ const ContactMe = () => {
         <title>Contact | Dev-Hassan</title>
       </Helmet>
       <Container>
+        <Animated/>
         <ContactHead></ContactHead>
         <EmailSupport></EmailSupport>
         <SocialMedia></SocialMedia>

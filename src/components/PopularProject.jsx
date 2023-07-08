@@ -11,9 +11,9 @@ const PopularProject = () => {
     ({ duration: 1000 });
   }, []);
   return (
-    <div className=" mt-20 py-10 container mx-auto">
-      <div className=" flex justify-between items-center gap-5">
-        {/* left */}
+    <div className="py-10 overflow-x-hidden">
+      <div className=" flex justify-between items-center gap-5 ">
+        
         <div
           data-aos="fade-down"
           className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2"
@@ -31,15 +31,15 @@ const PopularProject = () => {
         </div>
       </div>
 
-      {/* bottom */}
-      <div className="md:grid grid-cols-3 gap-4 my-10 ">
+      <div className="md:grid md:grid-cols-3 gap-4 my-10 ">
+
         <div data-aos="fade-right">
           <div className="border border-[#ABB2BF]">
-            {/* img */}
+           
             <div className="">
               <img className=" w-full" src={project1} alt="" />
             </div>
-            {/* skills */}
+           
             <div className="flex gap-2 flex-wrap p-2 border-y border-[#ABB2BF] text-[#ABB2BF] text-sm">
               <p className="border py-1 p-1 hover:bg-[#C778DD33]  hover:text-[#fff] duration-75 border-[#C778DD]">
                 Tailwind css
@@ -51,11 +51,11 @@ const PopularProject = () => {
                 FireBase
               </p>
             </div>
-            {/* disc */}
+           
             <div className=" p-4">
-              <h2 className="text-[#FFFFFF] text-2xl font-medium">{[]}</h2>
-              <p className=" py-4 text-[#ABB2BF]">{[]}</p>
-              {/* btns */}
+              <h2 className="text-[#FFFFFF] text-2xl font-medium">Cookiterr Food Recipe</h2>
+              <p className=" py-4 text-[#ABB2BF]"></p>
+              
               <div className="flex justify-between">
                 <button className=" py-2 px-4 text-white border border-[#C778DD] hover:bg-[#C778DD33] duration-150">
                   <a
@@ -66,8 +66,7 @@ const PopularProject = () => {
                   </a>
                 </button>
                 <button className=" py-2 px-4 text-white border border-[#C778DD] hover:bg-[#C778DD33] duration-150">
-                  <a href="#_">
-                    {" "}
+                  <a href="https://github.com/dev-abulhassan/cookiterr-food-recipe">
                     Code {"<"}~{">"}
                   </a>
                 </button>
@@ -78,11 +77,11 @@ const PopularProject = () => {
 
         <div data-aos="fade-top">
           <div className="border border-[#ABB2BF]">
-            {/* img */}
+           
             <div className="">
               <img className=" w-full" src={project2} alt="" />
             </div>
-            {/* skills */}
+          
             <div className="flex gap-2 flex-wrap p-2 border-y border-[#ABB2BF] text-[#ABB2BF] text-sm">
               <p className="border py-1 p-1 hover:bg-[#C778DD33]  hover:text-[#fff] duration-75 border-[#C778DD]">
                 Tailwind css
@@ -100,11 +99,9 @@ const PopularProject = () => {
                 MongoDb
               </p>
             </div>
-            {/* disc */}
             <div className=" p-4">
-              <h2 className="text-[#FFFFFF] text-2xl font-medium">{[]}</h2>
+              <h2 className="text-[#FFFFFF] text-2xl font-medium">Flaire Dance School</h2>
               <p className=" py-4 text-[#ABB2BF]">{[]}</p>
-              {/* btns */}
               <div className="flex justify-between">
                 <button className=" py-2 px-4 text-white border border-[#C778DD] hover:bg-[#C778DD33] duration-150">
                   <a
@@ -115,8 +112,8 @@ const PopularProject = () => {
                   </a>
                 </button>
                 <button className=" py-2 px-4 text-white border border-[#C778DD] hover:bg-[#C778DD33] duration-150">
-                  <a href="#_">
-                    {" "}
+                  <a href="https://github.com/dev-abulhassan/flaire-dance-school">
+                    
                     Code {"<"}~{">"}
                   </a>
                 </button>
@@ -127,11 +124,11 @@ const PopularProject = () => {
 
         <div data-aos="fade-left">
           <div className="border border-[#ABB2BF]">
-            {/* img */}
+           
             <div className="">
               <img className=" w-full" src={project3} alt="" />
             </div>
-            {/* skills */}
+            
             <div className="flex gap-2 flex-wrap p-2 border-y border-[#ABB2BF] text-[#ABB2BF] text-sm">
               <p className="border py-1 p-1 hover:bg-[#C778DD33]  hover:text-[#fff] duration-75 border-[#C778DD]">
                 Tailwind css
@@ -149,11 +146,11 @@ const PopularProject = () => {
                 MongoDb
               </p>
             </div>
-            {/* disc */}
+           
             <div className=" p-4">
-              <h2 className="text-[#FFFFFF] text-2xl font-medium">{[]}</h2>
+              <h2 className="text-[#FFFFFF] text-2xl font-medium">Babybo | Baby Toy</h2>
               <p className=" py-4 text-[#ABB2BF]">{[]}</p>
-              {/* btns */}
+             
               <div className="flex justify-between">
                 <button className=" py-2 px-4 text-white border border-[#C778DD] hover:bg-[#C778DD33] duration-150">
                   <a href="https://babybo-b544c.web.app/" target="_blank">
@@ -161,7 +158,7 @@ const PopularProject = () => {
                   </a>
                 </button>
                 <button className=" py-2 px-4 text-white border border-[#C778DD] hover:bg-[#C778DD33] duration-150">
-                  <a href="#_">
+                  <a href="https://github.com/dev-abulhassan/babyboo-client">
                     {" "}
                     Code {"<"}~{">"}
                   </a>
@@ -170,6 +167,7 @@ const PopularProject = () => {
             </div>
           </div>
         </div>
+
       </div>
     </div>
   );
