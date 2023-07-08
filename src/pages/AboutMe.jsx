@@ -5,6 +5,7 @@ import AboutSection from "../components/AboutSection";
 import Skill from "../components/About/Skill";
 import FunFact from "../components/About/FunFact";
 import { Helmet } from "react-helmet-async";
+import Animated from "../components/AnimatedCursor/Animated";
 
 const AboutMe = () => {
   return (
@@ -13,6 +14,7 @@ const AboutMe = () => {
         <title>About | Dev-Hassan</title>
       </Helmet>
       <Container>
+         <Animated/>
         <AboutHead></AboutHead>
         <AboutSection></AboutSection>
         <Skill></Skill>
