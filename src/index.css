@@ -5,4 +5,29 @@
 .ection{
 color: rgb(248, 252, 252);
 }
+:root {
+   --scrollbar-track-color: #f1f1f1;
+   --scrollbar-thumb-color: #c778dd;
+   --scrollbar-width:8px;
+ }
+.typewriter-text{
+   color: #c778dd;
+}
+ body::-webkit-scrollbar {
+   width: var(--scrollbar-width);
+ }
+ 
+ body::-webkit-scrollbar-track {
+   background-color: var(--scrollbar-track-color);
+ }
+ 
+ body::-webkit-scrollbar-thumb {
+   background-color: var(--scrollbar-thumb-color);
+ }
+ 
+ 
+
+  
+    
+
  

@@ -14,7 +14,7 @@ const SkillSection = () => {
     },
     {
       title: "Other",
-      languages: ["HTML", "CSS", "SCSS", "REST", "BoostTrap", "Tailwind CSS"],
+      languages: ["HTML", "CSS", "SCSS", "REST", "Bootstap", "Tailwind CSS"],
     },
     {
       title: "Frameworks",
@@ -23,9 +23,7 @@ const SkillSection = () => {
   ];
   return (
     <>
-      
       <div className="px-5  mt-20 py-10">
-    
         <div data-aos="fade-left" className=" mb-10">
           <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
             <div className="">
@@ -34,13 +32,12 @@ const SkillSection = () => {
             <div className="line w-1/3 h-px bg-[#C778DD]"></div>
           </div>
         </div>
-      
+
         <div className=" flex flex-wrap gap-10 justify-between items-center text-white">
-        
           <div data-aos="fade-right" className="mx-auto">
-          <img className=" w-full mx-auto" src={shapes} alt="" />
+            <img className=" w-full mx-auto" src={shapes} alt="" />
           </div>
-        
+
           <div
             data-aos="fade-left"
             className=" mx-auto flex justify-around md:justify-end flex-wrap w-10/12 md:w-1/2 gap-4"

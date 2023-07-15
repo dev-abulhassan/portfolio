@@ -8,9 +8,7 @@ import router from "./router/Router.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HelmetProvider>
-      
         <RouterProvider router={router} />
-      
     </HelmetProvider>
   </React.StrictMode>
 );

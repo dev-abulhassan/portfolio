@@ -3,12 +3,12 @@ import React from "react";
 const WordPressProject = () => {
   return (
     <>
-      <div className=" text-white font-medium mt-[68px] text-[32px]">
+      <div className=" text-white font-medium mt-[68px] text-[32px] py-8">
         <span className=" text-[#C778DD]">#</span>
         <span>wordpre-project</span>
       </div>
 
-      <div className="md:grid grid-cols-4 gap-4 py-2">
+      <div className="md:grid grid-cols-4 gap-4 py-20">
         <div className="card max-w-[331px] w-full border border-[#ABB2BF]">
           {/* skills */}
           <div className=" border-b border-[#ABB2BF] p-2 text-[#ABB2BF]">WordPress</div>
@@ -18,7 +18,7 @@ const WordPressProject = () => {
             <p className=" text-[#ABB2BF] py-4">NewsPaper</p>
             {/* we are only coders so maybe no one have figma projects */}
             <button className=" border border-[#C778DD] px-4 py-2 text-white duration-150 hover:bg-[#C778DD33]">
-              <a href="www.gonoodhikar.net">
+              <a href="https://gonoodhikar.net">
                 Live {"<"}~{">"}
               </a>
             </button>
@@ -108,7 +108,7 @@ const WordPressProject = () => {
               Home and Office Shifting Service in Gulshan
             </p>
             <button className=" border border-[#C778DD] px-4 py-2 text-white duration-150 hover:bg-[#C778DD33]">
-              <a href="homeshifting.com.bd" target="_blank">
+              <a href="https://homeshifting.com.bd" target="_blank">
                 Live {"<"}~{">"}
               </a>
             </button>
