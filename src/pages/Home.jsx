@@ -7,7 +7,6 @@ import { Helmet } from "react-helmet-async";
 import Animated from "../components/AnimatedCursor/Animated";
 import Container from "../Shared/Container";
 import HeroSection from "../components/HeroSection";
-import ScrollToTop from "react-scroll-to-top";
 
 const Home = () => {
   return (
@@ -17,9 +16,6 @@ const Home = () => {
       </Helmet>
       <Animated />
       <div className="scrollbar-thumb-gray-300 scrollbar-track-gray-100">
-        <ScrollToTop
-          smooth
-        ></ScrollToTop>
         <HeroSection></HeroSection>
         <Container>
           <PopularProject></PopularProject>
