@@ -14,7 +14,7 @@ const HeroSection = () => {
   }, []);
   return (
     <>
-      <aside className="md:gap-5 fixed z-20 md:top-[45%] top-[22%] ">
+      <aside className="md:gap-5  fixed z-20 md:top-[45%] top-[22%] ">
         <div className="flex flex-col gap-5 text-3xl text-[#c778dd]  px-3 md:px-8 w-[100px]">
           <Link
             to="https://www.facebook.com/iamadnanhassan/"
@@ -43,7 +43,7 @@ const HeroSection = () => {
         <div className=" md:flex lg:flex justify-between items-center px-10 py-10 overflow-x-hidden">
           <div data-aos="fade-right" className=" ">
             <h1 className="font-semibold text-3xl md:text-6xl text-[32px] text-white mb-3">
-              I am <span className="text-[#c778dd]">Adnan Hassan</span>
+              I am <span className="text-[#c778dd]">Dev-Hassan</span>
               <Typewriter
                 options={{
                   strings: ["SEO Expert", "front-end developer"],

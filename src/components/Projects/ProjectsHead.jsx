@@ -7,7 +7,6 @@ const ProjectsHead = () => {
         <span className=" text-[#C778DD]">/</span>
         <span>projects</span>
       </div>
-      {/* list */}
       <div className=" text-white mt-[14px]">List of my projects</div>
     </>
   );

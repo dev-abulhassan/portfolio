@@ -15,11 +15,11 @@ const Footer = () => {
                     <img src={logo} alt="" />
                     <span>hassan</span>
                   </div>
-                  <span className="text-[#ABB2BF]">hassan@hassan.ml</span>
+                  <span className="text-[#ABB2BF]">abulhassan.dev@gmail.com</span>
                 </div>
                 <div className="text-[#ffffff]">
                   <p>
-                    Web designer and front-end developer based in Bangladesh
+                    SEO Expert and Front-end ( React ) developer based in Bangladesh
                   </p>
                 </div>
               </div>

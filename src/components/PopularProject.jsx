@@ -13,7 +13,6 @@ const PopularProject = () => {
   return (
     <div className="py-10 overflow-x-hidden">
       <div className=" flex justify-between items-center gap-5 ">
-        
         <div
           data-aos="fade-down"
           className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2"
@@ -23,16 +22,13 @@ const PopularProject = () => {
           </div>
           <div className="line w-2/3 h-px bg-[#C778DD]"></div>
         </div>
-        {/* right */}
         <div className=" text-white font-medium">
-          <Link>
-            <span>View all ~~&gt;</span>
+          <Link to={'/projects'}>
+            <span className="hover:text-[#c778dd]">View all ~~&gt;</span>
           </Link>
         </div>
       </div>
-
       <div className="md:grid md:grid-cols-3 gap-4 my-10 ">
-
         <div data-aos="fade-right">
           <div className="border border-[#ABB2BF]">
            
@@ -74,7 +70,6 @@ const PopularProject = () => {
             </div>
           </div>
         </div>
-
         <div data-aos="fade-top">
           <div className="border border-[#ABB2BF]">
            
@@ -121,7 +116,6 @@ const PopularProject = () => {
             </div>
           </div>
         </div>
-
         <div data-aos="fade-left">
           <div className="border border-[#ABB2BF]">
            
@@ -167,7 +161,6 @@ const PopularProject = () => {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

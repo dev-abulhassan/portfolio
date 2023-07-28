@@ -25,7 +25,19 @@ color: rgb(248, 252, 252);
    background-color: var(--scrollbar-thumb-color);
  }
  
- 
+.scroll-to-top {
+  background-color: #c778dd !important;
+  right: 40px;
+  bottom: 40px;
+  position: fixed;
+  z-index: 3;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 35px !important;
+  height: 35px !important;
+  box-shadow: 0 9px 25px 0 rgba(153, 74, 243, 0.562);
+  border: none;
+}
 
   
     
