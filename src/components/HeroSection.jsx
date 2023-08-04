@@ -14,7 +14,7 @@ const HeroSection = () => {
   }, []);
   return (
     <>
-      <aside className="md:gap-5  fixed z-20 md:top-[45%] top-[22%] ">
+      <aside className="md:gap-5 hidden md:block fixed z-20 md:top-[45%] top-[22%] ">
         <div className="flex flex-col gap-5 text-3xl text-[#c778dd]  px-3 md:px-8 w-[100px]">
           <Link
             to="https://www.facebook.com/iamadnanhassan/"
